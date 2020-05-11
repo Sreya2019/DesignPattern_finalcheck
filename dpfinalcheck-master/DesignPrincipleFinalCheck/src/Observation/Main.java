@@ -4,16 +4,16 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Observer puru=new Admin("Purusham");
-		Observer dc=new Admin("DInesh");
-		Observer rahul=new Admin("Rahul");
+		Observer puru=new Admin("Shreya");
+		Observer dc=new Admin("Saima");
+		Observer rahul=new Admin("Akshita");
 		
 		INotificationService notificationService=new NotificationService();
-		notificationService.addSubscriber(puru);
-		notificationService.addSubscriber(dc);
-		notificationService.addSubscriber(rahul);
+		notificationService.addSubscriber(shreyaa);
+		notificationService.addSubscriber(sam);
+		notificationService.addSubscriber(Akshita);
 		notificationService.notifySubscriber();
-		notificationService.removeSubscriber(rahul);
+		notificationService.removeSubscriber(shreyaa);
 		
 		
 
